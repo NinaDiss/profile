@@ -1,0 +1,115 @@
+
+body {
+  background-color: rgba(33, 66, 82, 0.1);
+  font-family: 'Raleway', sans-serif;
+  color: #214252;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #f05454;
+  margin-top: -24px;
+  margin-bottom: 40px;
+}
+
+.bottom_margin {
+  margin-bottom: 40px;
+}
+
+img {
+  width: 160px;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+
+img:hover {
+  filter: blur(5px);
+}
+
+.card {
+  text-align: center;
+  width: 700px;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: rgba(25, 25, 25, 0.04) 0 0 1px 0, rgba(0, 0, 0, 0.1) 0 3px 4px 0;
+}
+
+.main-card{
+  margin: 30px auto;
+  padding: 50px;
+}
+
+.social-card{
+  margin: 30px auto;
+  padding: 1px 50px;
+}
+
+.social_media {
+  list-style: none;
+  font-size: 30px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.social_media li a {
+  color: #f05454;
+  transition: all 0.3s;
+}
+
+.social_media li a:hover {
+  color: #214252;
+}
+
+.social_media li {
+  margin: 0px 10px;
+}
+
+.button {
+  background-color: #f05454;
+  color: white;
+  padding: 10px 26px;
+  height: 25px;
+  text-decoration: none;
+  border-radius: 3px;
+  display: inline-block;
+  border: 1px solid transparent;
+  box-shadow: rgba(25, 25, 25, 0.04) 0 0 1px 0, rgba(0, 0, 0, 0.1) 0 3px 4px 0;
+  transition: all 0.3s;
+}
+
+.button:hover {
+  background-color: white;
+  color: #f05454;
+  transform: scale(1.05);
+  border: 1px solid #f05454;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
